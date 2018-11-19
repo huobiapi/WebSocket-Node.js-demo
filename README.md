@@ -11,8 +11,3 @@ ws.js
 npm install
 node ws.js
 ```
-
-## 联系作者
-magicdlf (QQ:2797820732)
-最新demo代码:
-https://github.com/magicdlf/huobipro
