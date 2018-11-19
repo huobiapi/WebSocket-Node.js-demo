@@ -13,14 +13,11 @@ ws.js
 ```
 
 ## 配置参数
+
+`./order-account-Websocket/ws.js`是订阅账户资产和订单状态变动的demo
+
 | 名称| 说明|
 |----|----|
 |accessKey |用户accessKey，需要修改|
 |secretKey | 用户secretKey，需要修改|
-
-
-## 联系作者
-magicdlf (QQ:1091472931)
-最新demo代码:
-https://github.com/magicdlf/huobipro
 
