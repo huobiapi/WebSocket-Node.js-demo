@@ -11,8 +11,8 @@ const uri = "/ws/v1"
 
 // 修改您的accessKey 和 secretKey
 const config = {
-    accessKey: "7fc44160-1ccf05b5-f9b3e155-64215",
-    secretKey: "9efec8cf-1efe16b4-93783924-09044"
+    accessKey: "XXXXXXXX-XXXXXXXX-XXXXXXXX-XXXXX",
+    secretKey: "XXXXXXXX-XXXXXXXX-XXXXXXXX-XXXXX"
 }
 
 
