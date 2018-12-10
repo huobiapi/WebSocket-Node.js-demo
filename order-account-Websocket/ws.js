@@ -110,7 +110,7 @@ function auth(ws) {
     }
 
     //计算签名
-    sign_sha('GET', host, uri, data);
+    data["Signature"] = sign_sha('GET', host, uri, data);
     data["op"]="auth";
     console.log(data);
     ws.send(JSON.stringify(data));
