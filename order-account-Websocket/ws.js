@@ -148,11 +148,12 @@ function init() {
             console.log(pong);
             // 维持 ping pong
             ws.send(JSON.stringify(pong));
-        }else if (msg.op=""){
+        }else if (msg.op == "notify"){
             // TODO 接收信息 进行业务处理
             console.log(msg)
+        }else {
+            console.log(msg)
         }
-
 
     });
     ws.on('close', () => {
